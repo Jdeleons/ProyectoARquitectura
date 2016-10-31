@@ -106,7 +106,7 @@ namespace Twitter__App_only_auth____Vozidea.com
          
         }
 //FUNCION QUE NOS SIRVE PARA PODER VALIDAR ARDUINO Y ENCENDER EL SERVO Y LA PANTALLA LCD
-        private string encenderservo(string timeline_json) {
+ private string encenderservo(string timeline_json) {
            
             string encender = "encender";
             string apagar = "apagar";
@@ -122,7 +122,7 @@ namespace Twitter__App_only_auth____Vozidea.com
      }
 
 //FUNCION QUE NOS SERVIRA PARA OBTENER UN TWEET DESDE LA APP DE TWITTER
-        private void ObtenerTweet() {
+ private void ObtenerTweet() {
            
             string consumer_key = "XUnylstE1JouDNyf1UyP4pPXJ";
             string consumer_secret = "Ob3mjXL47PPP6gxHyl4FZcgB1AwXcbhVSlecm7c6VH3n11mJV0";
@@ -141,10 +141,18 @@ namespace Twitter__App_only_auth____Vozidea.com
               
 
 // FUNCION DE TIMER PARA QUE TENGA UN TIEMPO DE ENCENDIDO 
-        private void timer1_Tick(object sender, EventArgs e)
+ private void timer1_Tick(object sender, EventArgs e)
         {
             this.ObtenerTweet();     
         }
+
+//PROGRAMACION DEL BOTON DE INICIO
+private void Inicio_Click(object sender, EventArgs e)
+        {
+            this.timer1.Enabled = true;// aqui habilitamos el estado de timer
+            this.timer1.Start();// con esta linea de codigo ensendemos nuestra funcion timer
+        }
+
 
     }
 }

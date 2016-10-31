@@ -23,3 +23,11 @@ C:\Users\Hewlett Packard\Documents\Visual Studio 2010\Projects\Twitter-App-only-
 C:\Users\Hewlett Packard\Documents\Visual Studio 2010\Projects\Twitter-App-only-auth-Vozidea.com\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter__App_only_auth____Vozidea.com.Form1.resources
 C:\Users\Hewlett Packard\Documents\Visual Studio 2010\Projects\Twitter-App-only-auth-Vozidea.com\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter__App_only_auth____Vozidea.com.Properties.Resources.resources
 C:\Users\Hewlett Packard\Documents\Visual Studio 2010\Projects\Twitter-App-only-auth-Vozidea.com\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter (App-only auth) - Vozidea.com.csproj.GenerateResource.Cache
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Twitter (App-only auth) - Vozidea.com.exe.config
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter (App-only auth) - Vozidea.com.exe
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter (App-only auth) - Vozidea.com.pdb
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter__App_only_auth____Vozidea.com.Form1.resources
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter__App_only_auth____Vozidea.com.Properties.Resources.resources
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter (App-only auth) - Vozidea.com.csproj.GenerateResource.Cache
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Twitter (App-only auth) - Vozidea.com.exe
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Twitter (App-only auth) - Vozidea.com.pdb

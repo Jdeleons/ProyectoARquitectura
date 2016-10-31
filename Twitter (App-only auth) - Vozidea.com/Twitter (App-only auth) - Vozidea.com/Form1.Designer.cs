@@ -29,44 +29,56 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button_go = new System.Windows.Forms.Button();
-            this.textBox_json = new System.Windows.Forms.TextBox();
             this.MiPuertoSerial = new System.IO.Ports.SerialPort(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.textBox_json = new System.Windows.Forms.TextBox();
+            this.Inicio = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button_go
-            // 
-            this.button_go.Location = new System.Drawing.Point(377, 297);
-            this.button_go.Name = "button_go";
-            this.button_go.Size = new System.Drawing.Size(75, 23);
-            this.button_go.TabIndex = 0;
-            this.button_go.Text = "GO!";
-            this.button_go.UseVisualStyleBackColor = true;
-            this.button_go.Click += new System.EventHandler(this.button_go_Click);
-            // 
-            // textBox_json
-            // 
-            this.textBox_json.Location = new System.Drawing.Point(12, 84);
-            this.textBox_json.Multiline = true;
-            this.textBox_json.Name = "textBox_json";
-            this.textBox_json.Size = new System.Drawing.Size(440, 207);
-            this.textBox_json.TabIndex = 1;
             // 
             // timer1
             // 
             this.timer1.Interval = 6000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // textBox_json
+            // 
+            this.textBox_json.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.textBox_json.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_json.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.textBox_json.Location = new System.Drawing.Point(335, 292);
+            this.textBox_json.Multiline = true;
+            this.textBox_json.Name = "textBox_json";
+            this.textBox_json.Size = new System.Drawing.Size(135, 35);
+            this.textBox_json.TabIndex = 5;
+            // 
+            // Inicio
+            // 
+            this.Inicio.AllowDrop = true;
+            this.Inicio.AutoSize = true;
+            this.Inicio.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Inicio.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Inicio.Location = new System.Drawing.Point(345, 251);
+            this.Inicio.Name = "Inicio";
+            this.Inicio.Size = new System.Drawing.Size(112, 35);
+            this.Inicio.TabIndex = 4;
+            this.Inicio.Text = "GO!";
+            this.Inicio.UseVisualStyleBackColor = false;
+            this.Inicio.Click += new System.EventHandler(this.Inicio_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 332);
+            this.BackgroundImage = global::Twitter__App_only_auth____Vozidea.com.Properties.Resources.images__7_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(469, 329);
             this.Controls.Add(this.textBox_json);
-            this.Controls.Add(this.button_go);
+            this.Controls.Add(this.Inicio);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Form1";
-            this.Text = "Twitter (Application-only authentication) - Vozidea.com";
+            this.Text = "Twitter ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -75,10 +87,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button_go;
-        private System.Windows.Forms.TextBox textBox_json;
         private System.IO.Ports.SerialPort MiPuertoSerial;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox textBox_json;
+        private System.Windows.Forms.Button Inicio;
     }
 }
 
