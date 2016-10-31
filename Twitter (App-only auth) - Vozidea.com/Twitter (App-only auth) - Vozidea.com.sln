@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter (App-only auth) - Vozidea.com", "Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com.csproj", "{0DE14E18-F10B-4235-A9C9-517BFA92626B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorArquitect", "InstaladorArquitect\InstaladorArquitect.vdproj", "{C2A0EEF1-7F1C-4179-A309-106F775E6E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{0DE14E18-F10B-4235-A9C9-517BFA92626B}.Debug|x86.Build.0 = Debug|x86
 		{0DE14E18-F10B-4235-A9C9-517BFA92626B}.Release|x86.ActiveCfg = Release|x86
 		{0DE14E18-F10B-4235-A9C9-517BFA92626B}.Release|x86.Build.0 = Release|x86
+		{C2A0EEF1-7F1C-4179-A309-106F775E6E37}.Debug|x86.ActiveCfg = Debug
+		{C2A0EEF1-7F1C-4179-A309-106F775E6E37}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

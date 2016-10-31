@@ -24,7 +24,7 @@ namespace Twitter__App_only_auth____Vozidea.com
            ArduinoPort = new System.IO.Ports.SerialPort();
            ArduinoPort.PortName = "COM6";
            ArduinoPort.BaudRate = 9600;
-          // ArduinoPort.Open();                   
+           ArduinoPort.Open();                   
         }
 
         private void Form1_Load(object sender, EventArgs e)
