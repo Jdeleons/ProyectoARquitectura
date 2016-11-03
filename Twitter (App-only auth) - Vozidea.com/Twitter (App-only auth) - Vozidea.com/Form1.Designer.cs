@@ -33,6 +33,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox_json = new System.Windows.Forms.TextBox();
             this.Inicio = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Enviar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timer1
@@ -45,7 +47,7 @@
             this.textBox_json.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox_json.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_json.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox_json.Location = new System.Drawing.Point(335, 292);
+            this.textBox_json.Location = new System.Drawing.Point(357, 292);
             this.textBox_json.Multiline = true;
             this.textBox_json.Name = "textBox_json";
             this.textBox_json.Size = new System.Drawing.Size(135, 35);
@@ -59,7 +61,7 @@
             this.Inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Inicio.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Inicio.Location = new System.Drawing.Point(345, 251);
+            this.Inicio.Location = new System.Drawing.Point(367, 251);
             this.Inicio.Name = "Inicio";
             this.Inicio.Size = new System.Drawing.Size(112, 35);
             this.Inicio.TabIndex = 4;
@@ -67,13 +69,42 @@
             this.Inicio.UseVisualStyleBackColor = false;
             this.Inicio.Click += new System.EventHandler(this.Inicio_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.textBox1.Location = new System.Drawing.Point(2, 292);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(135, 35);
+            this.textBox1.TabIndex = 7;
+            // 
+            // Enviar
+            // 
+            this.Enviar.AllowDrop = true;
+            this.Enviar.AutoSize = true;
+            this.Enviar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Enviar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Enviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Enviar.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Enviar.Location = new System.Drawing.Point(12, 251);
+            this.Enviar.Name = "Enviar";
+            this.Enviar.Size = new System.Drawing.Size(112, 35);
+            this.Enviar.TabIndex = 6;
+            this.Enviar.Text = "ENVAIR";
+            this.Enviar.UseVisualStyleBackColor = false;
+            this.Enviar.Click += new System.EventHandler(this.Enviar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Twitter__App_only_auth____Vozidea.com.Properties.Resources.images__7_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(469, 329);
+            this.ClientSize = new System.Drawing.Size(491, 329);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Enviar);
             this.Controls.Add(this.textBox_json);
             this.Controls.Add(this.Inicio);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -91,6 +122,8 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox textBox_json;
         private System.Windows.Forms.Button Inicio;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Enviar;
     }
 }
 

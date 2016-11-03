@@ -32,3 +32,9 @@ C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitte
 C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Twitter (App-only auth) - Vozidea.com.exe
 C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Twitter (App-only auth) - Vozidea.com.pdb
 C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\obj\x86\Debug\Twitter (App-only auth) - Vozidea.com.csprojResolveAssemblyReference.cache
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Hammock.ClientProfile.dll
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Newtonsoft.Json.dll
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\TweetSharp.dll
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Hammock.ClientProfile.pdb
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\Newtonsoft.Json.xml
+C:\GitProyects\ProyectoARquitectura\Twitter (App-only auth) - Vozidea.com\Twitter (App-only auth) - Vozidea.com\bin\Debug\TweetSharp.pdb

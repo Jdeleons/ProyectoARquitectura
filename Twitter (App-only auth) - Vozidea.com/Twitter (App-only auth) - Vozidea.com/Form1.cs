@@ -10,6 +10,7 @@ using System.Collections;
 using System.Net;
 using System.IO;
 using System.Web.Script.Serialization;
+using TweetSharp;
 
 namespace Twitter__App_only_auth____Vozidea.com
 {
@@ -24,13 +25,16 @@ namespace Twitter__App_only_auth____Vozidea.com
            ArduinoPort = new System.IO.Ports.SerialPort();
            ArduinoPort.PortName = "COM6";
            ArduinoPort.BaudRate = 9600;
-           ArduinoPort.Open();                   
+          // ArduinoPort.Open();                   
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
+        string consumer_key = "XUnylstE1JouDNyf1UyP4pPXJ";
+        string consumer_secret = "Ob3mjXL47PPP6gxHyl4FZcgB1AwXcbhVSlecm7c6VH3n11mJV0";
     
         private void button_go_Click(object sender, EventArgs e)
         {            
@@ -152,6 +156,22 @@ private void Inicio_Click(object sender, EventArgs e)
             this.timer1.Enabled = true;// aqui habilitamos el estado de timer
             this.timer1.Start();// con esta linea de codigo ensendemos nuestra funcion timer
         }
+
+private void Enviar_Click(object sender, EventArgs e)
+{
+    String accessToken = "773011762094284800-BXK6islgIQs7LPu9O0xH0ehMZWX3Zf5";
+    String accessTokenSecret = "cvbDYI29oubC5A6hCUTOkZMOu79lHLD0cmt6KRC9eHauy";
+    //******
+    var service = new TwitterService(consumer_key, consumer_secret);
+    service.AuthenticateWith(accessToken, accessTokenSecret);
+    String Texto = this.textBox1.Text;
+    TwitterStatus result = service.SendTweet(new SendTweetOptions
+    {
+        Status = Texto
+    });
+
+
+}
 
 
     }
