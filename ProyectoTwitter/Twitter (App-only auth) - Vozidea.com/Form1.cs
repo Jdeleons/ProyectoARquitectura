@@ -111,16 +111,20 @@ namespace Twitter__App_only_auth____Vozidea.com
         }
 //FUNCION QUE NOS SIRVE PARA PODER VALIDAR ARDUINO Y ENCENDER EL SERVO Y LA PANTALLA LCD
  private string encenderservo(string timeline_json) {
-           
+            String Tweet = "";
             string encender = "encender";
             string apagar = "apagar";
             if (timeline_json == encender)
             {
-                ArduinoPort.Write("360");
+                 Tweet = "abreindo puerta";
+                 ArduinoPort.Write("360");
+                 this.EnviarTweet(Tweet);
             }
             else if (timeline_json == apagar)
             {
+                Tweet = "cerrando puerta";
                 ArduinoPort.Write("0");
+                this.EnviarTweet(Tweet);
             }     
             return ""; 
      }
@@ -142,7 +146,22 @@ namespace Twitter__App_only_auth____Vozidea.com
             this.encenderservo(timeline_json);
  
         }
-              
+
+//FUNCION PARA ENVIAR UN TWEET DE C" A TWITTER
+ private string EnviarTweet(string tweet) {
+     String accessToken = "773011762094284800-BXK6islgIQs7LPu9O0xH0ehMZWX3Zf5";
+     String accessTokenSecret = "cvbDYI29oubC5A6hCUTOkZMOu79lHLD0cmt6KRC9eHauy";
+     //******
+     var service = new TwitterService(consumer_key, consumer_secret);
+     service.AuthenticateWith(accessToken, accessTokenSecret);
+     String Texto = tweet;
+     TwitterStatus result = service.SendTweet(new SendTweetOptions
+     {
+         Status = Texto
+     });
+
+     return "";
+ }              
 
 // FUNCION DE TIMER PARA QUE TENGA UN TIEMPO DE ENCENDIDO 
  private void timer1_Tick(object sender, EventArgs e)
@@ -159,18 +178,7 @@ private void Inicio_Click(object sender, EventArgs e)
 
 private void Enviar_Click(object sender, EventArgs e)
 {
-    String accessToken = "773011762094284800-BXK6islgIQs7LPu9O0xH0ehMZWX3Zf5";
-    String accessTokenSecret = "cvbDYI29oubC5A6hCUTOkZMOu79lHLD0cmt6KRC9eHauy";
-    //******
-    var service = new TwitterService(consumer_key, consumer_secret);
-    service.AuthenticateWith(accessToken, accessTokenSecret);
-    String Texto = this.textBox1.Text;
-    TwitterStatus result = service.SendTweet(new SendTweetOptions
-    {
-        Status = Texto
-    });
-
-
+   
 }
 
 
